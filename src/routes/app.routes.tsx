@@ -15,6 +15,7 @@ const App = createStackNavigator();
 const AppRoutes: React.FC = () => (
   <App.Navigator
     screenOptions={{
+      headerTitleAlign:'center',
       headerShown: true,
       cardStyle: { backgroundColor: '#EBEEF8' },
     }}
